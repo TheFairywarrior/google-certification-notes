@@ -1,0 +1,1 @@
+not implemented yet [goto docs](https://cloud.google.com/compute/vm-instance-pricing#committed_use)
