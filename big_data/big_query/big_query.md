@@ -83,3 +83,6 @@ Rich monitoring through [Stackdriver](../logging/audit_logs.md)
 
 ## Data Warehousing solution architecture 
 <img src="../../recources/data-warehousing-solution-architecture.svg" style="background: white">
+
+# Notes from questions
+- BigQuery supports both batch and streaming data. But Batching data into big query is free, while the streaming cost is dependant on size.

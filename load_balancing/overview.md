@@ -1,5 +1,7 @@
 # Overview of Load Balancing
 
+[Full docs here](https://cloud.google.com/load-balancing/docs/load-balancing-overview)
+
 * Distribute load balanced compute recourses across multiple regions through a single anycast IP address.
 * Uses auto scaling.
 * Fully integrated with Cloud CDN
@@ -61,3 +63,6 @@
 
 <img src="../recources/load_balancing/load_balance_diagram.png">
 
+
+## Vocab
+* target pool: A target pool is a single access point that all of the instances can be connected to through.

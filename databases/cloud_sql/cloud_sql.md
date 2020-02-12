@@ -20,3 +20,7 @@ Integrates with App Engine, Compute Engine and your dev environment
 ### Availability protection
 Continuous health checking
 
+
+## Notes from questions 
+Cloud SQL does not support multi regional databases.
+

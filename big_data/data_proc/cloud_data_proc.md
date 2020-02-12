@@ -39,4 +39,6 @@ Cloud Dataproc clusters can be provisioned with a custom image that includes you
 Clusters can use custom machine types and preemptible virtual machines to make them the perfect size for your needs.
 
 
+## Notes from questions 
+* The HDFS with Dataproc is volatile and cannot hold any information for long periods of time. It is recommended to use GCS.
 
