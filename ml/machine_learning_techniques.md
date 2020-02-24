@@ -21,3 +21,5 @@ To help a model that is overfitting:
 * Increase the number of examples, the more data a model is trained with the more use cases the model can be training on and better improves its predictions
 * Tune hyperparameters which is related to number and size of hidden layers
 * Increase regularization - EG. By using the dropout method.
+
+

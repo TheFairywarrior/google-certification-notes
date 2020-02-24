@@ -1,0 +1,33 @@
+
+> checkpoint-service@0.0.26 startupconsumer /opt/app
+> node ./dist/consumer.js
+
+/opt/app/node_modules/bindings/bindings.js:121
+        throw e;
+        ^
+
+Error: The module '/opt/app/node_modules/node-rdkafka/build/Release/node-librdkafka.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 72. This version of Node.js requires
+NODE_MODULE_VERSION 57. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+    at Object.Module._extensions..node (module.js:682:18)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at bindings (/opt/app/node_modules/bindings/bindings.js:112:48)
+    at Object.<anonymous> (/opt/app/node_modules/node-rdkafka/librdkafka.js:10:32)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! checkpoint-service@0.0.26 startupconsumer: `node ./dist/consumer.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the checkpoint-service@0.0.26 startupconsumer script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/node/.npm/_logs/2020-02-13T07_17_34_841Z-debug.log
