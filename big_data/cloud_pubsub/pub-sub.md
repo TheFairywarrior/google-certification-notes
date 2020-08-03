@@ -27,4 +27,9 @@ Global messaging and event ingestion made simple.
 * Cloud Pub/Sub is a HIPAA-compliant service, offering fine-grained access controls and end-to-end encryption.
 * Can re run messages easily.
 
+## Notes from questions
+* Default retention time is 7 days
+* Max retention is 7 days
+* Min retention is 10 min
+
 

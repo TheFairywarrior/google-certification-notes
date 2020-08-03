@@ -10,7 +10,7 @@
 ### Basic Concepts
 * Pipelines
     * Encapusulates all of the steps from reading input data, to transforming the data, to writing that data to somewhere.
-    * The input sink can be different types, allowing the conversion of data from one format to another.
+    * The input sink§§ can be different types, allowing the conversion of data from one format to another.
     * Apache Beam starts by creating a Pipeline object and then that object is the basis for creating the datasets.
 * PCollection
     * Represents a potentially distributed, multi-element dataset that acts as the pipelines data.
