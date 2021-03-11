@@ -6,3 +6,4 @@
     * Changing a columns data type.
     * Changing a columns Mode. (Except for when a *REQUIRED* columns are changing to *NULLABLE*)
     * Deleting a column.
+* Can only enable "pre-fetch" if the resource hitting the data has "owner" creds.
